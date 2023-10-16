@@ -14,7 +14,7 @@
     // echo $book1-> __get('title');
     echo $book1->__set('ashik',10);
     //echo $book1->__get('ashik');
-    echo "\n";
+    //echo "\n";
 
 
 // class MagicMethod
@@ -33,9 +33,10 @@
 // $obj->hello("Magic", "Method");
 
 //$book1-> hello("Magic", "Method");
-echo "\n";
+//echo "\n";
 
 $book1->__call('set','title');
 $book1->__call('get','title');
+echo $book1->ashik;
 
 echo "\n";?>
